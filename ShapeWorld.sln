@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapeWorld", "ShapeWorld\Sh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapeWorld.Domain", "ShapeWorld.Domain\ShapeWorld.Domain.csproj", "{C505C3E4-49F4-4567-BE8F-99A6A7C7D3D1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapeWorld.Testing", "ShapeWorld.Testing\ShapeWorld.Testing.csproj", "{ACFE356D-87DC-4B82-9825-0AA9755E24C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +46,17 @@ Global
 		{C505C3E4-49F4-4567-BE8F-99A6A7C7D3D1}.Release|x64.Build.0 = Release|Any CPU
 		{C505C3E4-49F4-4567-BE8F-99A6A7C7D3D1}.Release|x86.ActiveCfg = Release|Any CPU
 		{C505C3E4-49F4-4567-BE8F-99A6A7C7D3D1}.Release|x86.Build.0 = Release|Any CPU
+		{ACFE356D-87DC-4B82-9825-0AA9755E24C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACFE356D-87DC-4B82-9825-0AA9755E24C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACFE356D-87DC-4B82-9825-0AA9755E24C7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{ACFE356D-87DC-4B82-9825-0AA9755E24C7}.Debug|x64.Build.0 = Debug|Any CPU
+		{ACFE356D-87DC-4B82-9825-0AA9755E24C7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{ACFE356D-87DC-4B82-9825-0AA9755E24C7}.Debug|x86.Build.0 = Debug|Any CPU
+		{ACFE356D-87DC-4B82-9825-0AA9755E24C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACFE356D-87DC-4B82-9825-0AA9755E24C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACFE356D-87DC-4B82-9825-0AA9755E24C7}.Release|x64.ActiveCfg = Release|Any CPU
+		{ACFE356D-87DC-4B82-9825-0AA9755E24C7}.Release|x64.Build.0 = Release|Any CPU
+		{ACFE356D-87DC-4B82-9825-0AA9755E24C7}.Release|x86.ActiveCfg = Release|Any CPU
+		{ACFE356D-87DC-4B82-9825-0AA9755E24C7}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

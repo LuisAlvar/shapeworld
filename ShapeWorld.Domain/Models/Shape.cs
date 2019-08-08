@@ -34,6 +34,8 @@ namespace ShapeWold.Domain.Models{//This the project we are working on
 
     public abstract double Volume();
 
+
+
     //Controllers - constructor 
     public Shape(int edges){
       if(edges >= 0){
@@ -42,6 +44,12 @@ namespace ShapeWold.Domain.Models{//This the project we are working on
     }
 
     //methods
+    public override string ToString(){
+      //.Name -> class Name 
+      //This -> this is a reflection 
+      //GetType() is the way we enter reflection
+      return $"{this.GetType().Name} {NumberOfEdges}";
+    }
   }
 
 }

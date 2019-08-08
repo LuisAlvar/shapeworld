@@ -66,3 +66,36 @@ touch .gitignore
 =====
 git add 
 - we are add the local files to a repros
+- But we have not yet saves the files to the local server
+===
+git commit --message ""
+====
+git log 
+- who made the changes
+====
+install gitlens 
+====
+branchs 
+- different tracing channels 
+git branch 
+======
+git remote add pokemon https://github.com/LuisAlvar/shapeworld.git
+- allows us to connect to github
+- connect our local git to remote repro 
+======
+git push --set-upstream pokemon master
+- we are going to push from local to remote
+- upstream: we are treating github as a parent 
+- we only od this one time 
+- master locally should match master remotelly 
+- NOW: after we just need to use git push 
+=======
+======================================
+Testing 
+=======================================
+dotnet new xunit --name ShapWorld.Testing 
+dotnet sln add **/*.csproj
+====
+Need to link them 
+----
+dotnet add ShapeWorld.Testing/ShapeWorld.Testing.csproj  reference ShapeWorld.Domain/ShapeWorld.Domain.csproj

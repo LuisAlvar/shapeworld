@@ -1,5 +1,6 @@
 ﻿using System;
 using ShapeWold.Domain.Models;
+using ShapeWold.Domain.Collections;
 
 namespace ShapeWorld
 {
@@ -8,6 +9,8 @@ namespace ShapeWorld
         private static void Main(string[] args)
         { 
            PlayWidthShape();
+           ShapeArray sa = new ShapeArray();
+           sa.MyList();
         }
 
         private static void PlayWidthShape(){
